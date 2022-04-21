@@ -26,7 +26,8 @@ const Testimonials = () => {
                         <img src={Dots} alt="" />
                     </div>
                     <div class="col-12 reviews my-3">
-                        What our customers are saying
+                          What our customers are saying
+                          <span></span>
                     </div>
 
                     <div class="col-12 profile">

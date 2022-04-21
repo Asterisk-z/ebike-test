@@ -24,7 +24,7 @@ const Footer = () => {
   </section>
 
   <footer>
-    <div class="container">
+    <div class="container footer">
       <div class="row">
         <div class="col-6 footer">
           <div class="footer-logo">
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
       </div>
     </div>
-    <img src={LastDots} alt="" />
+    <img src={LastDots} alt="" className="footerdots"/>
   </footer>
  
 

@@ -4,7 +4,7 @@ import BikeImage from '../images/other-bikes.png';
 
 
 const Container = styledComponents.div`
-
+    // padding-left: 267px
 `;
 
 const BikeTypes = () => {
@@ -12,7 +12,7 @@ const BikeTypes = () => {
 
 
   return (
-      <Container>
+      <Container className='padding-l-267'>
         
                 
 
@@ -22,35 +22,35 @@ const BikeTypes = () => {
                     Other Type Of Bikes
                 </div>
                 <div class="row box text-center">
-                    <div class="col-2">
+                    <div class="col-2 single-bike">
                         <div class="img-box active-box">
                             <img src={BikeImage} alt="Hybrid Bikes" />
                         </div>
                         <div class="bike-names active-text">Hybrid Bikes</div>
                     </div>
 
-                    <div class="col-2">
+                    <div class="col-2 single-bike">
                         <div class="img-box">
                             <img src={BikeImage} alt="" />
                         </div>
                         <div class="bike-names">Fixie Bikes</div>
                     </div>
 
-                    <div class="col-2">
+                    <div class="col-2 single-bike">
                         <div class="img-box">
                             <img src={BikeImage} alt="" />
                         </div>
                         <div class="bike-names">Folding Bikes</div>
                     </div>
 
-                    <div class="col-2">
+                    <div class="col-2 single-bike">
                         <div class="img-box">
                             <img src={BikeImage} alt="" />
                         </div>
                         <div class="bike-names">Mount Bikes</div>
                     </div>
 
-                    <div class="col-2 faded">
+                    <div class="col-2 single-bike faded">
                         <div class="img-box">
                             <img src={BikeImage} alt="" />
                         </div>

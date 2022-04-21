@@ -45,7 +45,7 @@ const Header = () => {
 
                 <form class="form mt-5">
                   <FaSearch className='search-icon' />
-                  <input class="search" type="search" placeholder="Search..."  />
+                  <input class="search" type="search" placeholder="Search Bikes or anything"  />
                   <input type="button" class="btn button px- text-center" value="Find" />
                 </form>
               </div>

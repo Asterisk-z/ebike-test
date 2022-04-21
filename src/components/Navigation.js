@@ -1,11 +1,10 @@
 import React from 'react';
-import styledComponents from 'styled-components';
 import Logo from '../images/logo.png';
 
 const Navigation = () => {
   return (
      <div class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
+        <div class="container py-3">
             <a class="navbar-brand" href="#">
                 <img src={Logo} alt="logo" />
             </a>

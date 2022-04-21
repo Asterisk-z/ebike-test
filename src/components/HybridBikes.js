@@ -5,7 +5,7 @@ import Lottie from 'react-lottie';
 import Rider from '../lotties/biker-on-bike.json';
 
 const Container = styledComponents.div`
-
+    // padding-left: 267px;
 `;
 
 const RidingBiker = {
@@ -26,13 +26,13 @@ const HybridBikes = () => {
         
                 
 
-            <section class="hybrid-bike">
+            <section class="hybrid-bike padding-l-267">
                 <div class="container">
                     <div class="row hybrid-container">
                         <div class="col-4 rider-box">
                             <div class="bike-img">
                                 <div id="bike-svg">
-                                    <Lottie options={RidingBiker} width={350} height={332}  class="rider"/>
+                                    <Lottie options={RidingBiker} width={242} height={230}  class="rider"/>
                                 </div>
                             </div>
                             <div class="bike-sale mt-4">
@@ -45,12 +45,12 @@ const HybridBikes = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4 hybrid-rider">
+                        <div class="col-6 hybrid-rider px-5">
                             <div class="hybrid-bike-header">
                                 Hybrid Bikes
                             </div>
                             <div class="hybrid-bike-text">
-                                Dummy Text Progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it's not just work. We take pride in the solutions we deliever.
+                                Dummy Text Progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it's not just work. We take pride <br/> in the solutions we deliver.
                             </div>
                             <button class="hybrid-bike-button"> Learn more</button>
                         </div>
