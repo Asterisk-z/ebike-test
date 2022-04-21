@@ -19,27 +19,27 @@ const Footer = () => {
 
   <section id="bottom_img">
     <div>
-      <img src={FooterDots} alt="" class="bottom_image" />
+      <img src={FooterDots} alt="" className="bottom_image" />
     </div>
   </section>
 
   <footer>
-    <div class="container footer">
-      <div class="row">
-        <div class="col-6 footer">
-          <div class="footer-logo">
-            <span class="me">B </span> 
-            <span class="ebike">eBike</span>
+    <div className="container footer">
+      <div className="row">
+        <div className="col-6 footer">
+          <div className="footer-logo">
+            <span className="me">B </span> 
+            <span className="ebike">eBike</span>
           </div>
-          <div class="footer-address">
+          <div className="footer-address">
             Trafalgar provides progressive, and affordable <br/> healthcare, accessible on mobile and online for everyone
           </div>
-          <div class="footer-copyright">
+          <div className="footer-copyright">
             ©eBike 2021. All rights reserved
           </div>
         </div>
-        <div class="col-3">
-          <div class="lead-text">Company</div>
+        <div className="col-3">
+          <div className="lead-text">Company</div>
           <ul>
             <li><a href="#">Product</a></li>
             <li><a href="#">Bike Type</a></li>
@@ -47,8 +47,8 @@ const Footer = () => {
             <li><a href="#">Contact</a></li>
           </ul>
         </div>
-        <div class="col-3">
-          <div class="lead-text">Help</div>
+        <div className="col-3">
+          <div className="lead-text">Help</div>
           <ul>
             <li><a href="#">Help center</a></li>
             <li><a href="#">Contact support</a></li>

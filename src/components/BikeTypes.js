@@ -16,45 +16,45 @@ const BikeTypes = () => {
         
                 
 
-        <section class="other-bikes my-5">
-            <div class="container">
-                <div class="other-bikes-header my-5">
+        <section className="other-bikes my-5">
+            <div className="container">
+                <div className="other-bikes-header my-5">
                     Other Type Of Bikes
                 </div>
-                <div class="row box text-center">
-                    <div class="col-2 single-bike">
-                        <div class="img-box active-box">
+                <div className="row box text-center">
+                    <div className="col-2 single-bike">
+                        <div className="img-box active-box">
                             <img src={BikeImage} alt="Hybrid Bikes" />
                         </div>
-                        <div class="bike-names active-text">Hybrid Bikes</div>
+                        <div className="bike-names active-text">Hybrid Bikes</div>
                     </div>
 
-                    <div class="col-2 single-bike">
-                        <div class="img-box">
+                    <div className="col-2 single-bike">
+                        <div className="img-box">
                             <img src={BikeImage} alt="" />
                         </div>
-                        <div class="bike-names">Fixie Bikes</div>
+                        <div className="bike-names">Fixie Bikes</div>
                     </div>
 
-                    <div class="col-2 single-bike">
-                        <div class="img-box">
+                    <div className="col-2 single-bike">
+                        <div className="img-box">
                             <img src={BikeImage} alt="" />
                         </div>
-                        <div class="bike-names">Folding Bikes</div>
+                        <div className="bike-names">Folding Bikes</div>
                     </div>
 
-                    <div class="col-2 single-bike">
-                        <div class="img-box">
+                    <div className="col-2 single-bike">
+                        <div className="img-box">
                             <img src={BikeImage} alt="" />
                         </div>
-                        <div class="bike-names">Mount Bikes</div>
+                        <div className="bike-names">Mount Bikes</div>
                     </div>
 
-                    <div class="col-2 single-bike faded">
-                        <div class="img-box">
+                    <div className="col-2 single-bike faded">
+                        <div className="img-box">
                             <img src={BikeImage} alt="" />
                         </div>
-                        <div class="bike-names">City Bikes</div>
+                        <div className="bike-names">City Bikes</div>
                     </div>
 
                 </div>

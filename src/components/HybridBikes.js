@@ -26,33 +26,33 @@ const HybridBikes = () => {
         
                 
 
-            <section class="hybrid-bike padding-l-267">
-                <div class="container">
-                    <div class="row hybrid-container">
-                        <div class="col-4 rider-box">
-                            <div class="bike-img">
+            <section className="hybrid-bike padding-l-267">
+                <div className="container">
+                    <div className="row hybrid-container">
+                        <div className="col-4 rider-box">
+                            <div className="bike-img">
                                 <div id="bike-svg">
-                                    <Lottie options={RidingBiker} width={242} height={230}  class="rider"/>
+                                    <Lottie options={RidingBiker} width={242} height={230}  className="rider"/>
                                 </div>
                             </div>
-                            <div class="bike-sale mt-4">
-                                <div class="price">
+                            <div className="bike-sale mt-4">
+                                <div className="price">
                                     <p>Price</p>
-                                    <p class="dollars">$750.00</p>
+                                    <p className="dollars">$750.00</p>
                                 </div>
-                                <div class="order">
-                                    <input class="button" type="button" value="Order" />
+                                <div className="order">
+                                    <input className="button" type="button" value="Order" />
                                 </div>
                             </div>
                         </div>
-                        <div class="col-6 hybrid-rider px-5">
-                            <div class="hybrid-bike-header">
+                        <div className="col-6 hybrid-rider px-5">
+                            <div className="hybrid-bike-header">
                                 Hybrid Bikes
                             </div>
-                            <div class="hybrid-bike-text">
+                            <div className="hybrid-bike-text">
                                 Dummy Text Progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it's not just work. We take pride <br/> in the solutions we deliver.
                             </div>
-                            <button class="hybrid-bike-button"> Learn more</button>
+                            <button className="hybrid-bike-button"> Learn more</button>
                         </div>
                     </div>
                 </div>

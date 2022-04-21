@@ -19,26 +19,26 @@ const Testimonials = () => {
         
                 
 
-        <section class="">
-            <div class="container">
-                <div class="row customers">
-                    <div class="col-12 top-design">
+        <section className="">
+            <div className="container">
+                <div className="row customers">
+                    <div className="col-12 top-design">
                         <img src={Dots} alt="" />
                     </div>
-                    <div class="col-12 reviews my-3">
+                    <div className="col-12 reviews my-3">
                           What our customers are saying
                           <span></span>
                     </div>
 
-                    <div class="col-12 profile">
-                        <div class="profile-info">
-                            <div class="profile-img">
+                    <div className="col-12 profile">
+                        <div className="profile-info">
+                            <div className="profile-img">
                                 <img src={Athlete} alt="athlete" />
                             </div>
-                            <div class="profile-name">Edward Newgate</div>
-                            <div class="profile-title">Pro-Cycler</div>
+                            <div className="profile-name">Edward Newgate</div>
+                            <div className="profile-title">Pro-Cycler</div>
                         </div>
-                        <div class="profile-text">
+                        <div className="profile-text">
                             Dummy Text patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely”
                         </div>
                     </div>
@@ -46,12 +46,12 @@ const Testimonials = () => {
             </div>
         </section>
         
-        <section class="carousel">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 text-center">
-                    <img class="mx-5" src={SlideDots} alt="" />
-                    <button type="submit" class="slider-button">
+        <section className="carousel">
+            <div className="container">
+                <div className="row">
+                    <div className="col-12 text-center">
+                    <img className="mx-5" src={SlideDots} alt="" />
+                    <button type="submit" className="slider-button">
                         <img  src={Arrow} alt="" />
                     </button>
                     </div>

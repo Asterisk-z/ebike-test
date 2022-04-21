@@ -20,61 +20,61 @@ const Bikes = () => {
       <Container>
         
                 
-        <section class="bikes my-5">
-            <div class="container">
-                <div class="row mr--10">
-                    <div class="col-12 pl-7">
-                        <div class="row bike-section">
-                            <div class="col-3 bike-box">
-                                <div class="bike-name">
+        <section className="bikes my-5">
+            <div className="container">
+                <div className="row mr--10">
+                    <div className="col-12 pl-7">
+                        <div className="row bike-section">
+                            <div className="col-3 bike-box">
+                                <div className="bike-name">
                                     Universal eBike Kit
                                 </div>
-                                <div class="bike-img">
+                                <div className="bike-img">
                                     <img src={BikeImage1} alt="Universal eBike Kit" className='product-image-1'/>
                                 </div>
-                                <div class="bike-sale mt-2">
-                                    <div class="price">
+                                <div className="bike-sale mt-2">
+                                    <div className="price">
                                         <p>Price</p>
-                                        <p class="dollars">$750.00</p>
+                                        <p className="dollars">$750.00</p>
                                     </div>
-                                    <div class="order">
-                                        <input class="button" type="button" value="Order" />
+                                    <div className="order">
+                                        <input className="button" type="button" value="Order" />
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-3 bike-box">
-                                <div class="bike-name">
+                            <div className="col-3 bike-box">
+                                <div className="bike-name">
                                     Brampoton eBike Kit
                                 </div>
-                                <div class="bike-img">
+                                <div className="bike-img">
                                     <img src={BikeImage2} alt="Universal eBike Kit"  className='product-image-2' />
                                 </div>
-                                <div class="bike-sale mt-2">
-                                    <div class="price">
+                                <div className="bike-sale mt-2">
+                                    <div className="price">
                                         <p>Price</p>
-                                        <p class="dollars">$750.00</p>
+                                        <p className="dollars">$750.00</p>
                                     </div>
-                                    <div class="order">
-                                        <input class="button" type="button" value="Order" />
+                                    <div className="order">
+                                        <input className="button" type="button" value="Order" />
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-3 bike-box faded">
-                                <div class="bike-name">
+                            <div className="col-3 bike-box faded">
+                                <div className="bike-name">
                                     Additional eBike Kit
                                 </div>
-                                <div class="bike-img">
+                                <div className="bike-img">
                                     <img src={BikeImage3} alt="Universal eBike Kit"  className='product-image-3' />
                                 </div>
-                                <div class="bike-sale mt-2">
-                                    <div class="price">
+                                <div className="bike-sale mt-2">
+                                    <div className="price">
                                         <p>Price</p>
-                                        <p class="dollars">$250.00</p>
+                                        <p className="dollars">$250.00</p>
                                     </div>
-                                    <div class="order">
-                                        <input class="button" type="button" value="Order" />
+                                    <div className="order">
+                                        <input className="button" type="button" value="Order" />
                                     </div>
                                 </div>
                             </div>
@@ -83,13 +83,13 @@ const Bikes = () => {
                 </div>
             </div>
 
-            <div class="container my-5 padding-lr-267">
-                <div class="row">
-                    <div class="col-12 arrows">
-                        <button class="left-arrow mx-3">
+            <div className="container my-5 padding-lr-267">
+                <div className="row">
+                    <div className="col-12 arrows">
+                        <button className="left-arrow mx-3">
                             <img src={LeftArrow} alt="" />
                         </button>
-                        <button class="right-arrow">
+                        <button className="right-arrow">
                             <img src={RightArrow} alt="" />
                         </button>
                     </div>

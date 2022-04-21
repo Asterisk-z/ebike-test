@@ -31,26 +31,26 @@ const Header = () => {
         
 
         <main>
-          <div class="container">
-            <div class="row">
-              <div class="col-6">
-                <p class="intro-heading mb-4">
+          <div className="container">
+            <div className="row">
+              <div className="col-6">
+                <p className="intro-heading mb-4">
                   Your Bike <br/>
                   Electric Update
                 </p>
 
-                <p class="intro-text my-2">
+                <p className="intro-text my-2">
                   Dummy text progressive, and affordable <br/> healthcare, accessible on mobile and online <br/> for everyone.
                 </p>
 
-                <form class="form mt-5">
+                <form className="form mt-5">
                   <FaSearch className='search-icon' />
-                  <input class="search" type="search" placeholder="Search Bikes or anything"  />
-                  <input type="button" class="btn button px- text-center" value="Find" />
+                  <input className="search" type="search" placeholder="Search Bikes or anything"  />
+                  <input type="button" className="btn button px- text-center" value="Find" />
                 </form>
               </div>
-              <div class="col-6">
-                <div class="svg">
+              <div className="col-6">
+                <div className="svg">
                   <div id="svg">
                       <Lottie  options={defaultOptions} width={300} height={400} />
                   </div>
