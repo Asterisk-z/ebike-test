@@ -2,7 +2,7 @@
   "name": "react-ebike",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://asterisk-z.github.io/ebike-test/public/",
+  "homepage": "https://asterisk-z.github.io/ebike-test/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
