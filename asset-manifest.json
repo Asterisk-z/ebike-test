@@ -1,20 +1,22 @@
 {
   "files": {
-    "main.css": "/ebike-test/static/css/main.63910c6e.css",
-    "main.js": "/ebike-test/static/js/main.3e014a89.js",
+    "main.css": "/ebike-test/static/css/main.ebd8b2bd.css",
+    "main.js": "/ebike-test/static/js/main.0b200983.js",
     "static/js/787.1c1b9cfc.chunk.js": "/ebike-test/static/js/787.1c1b9cfc.chunk.js",
+    "static/media/productbike-2.svg": "/ebike-test/static/media/productbike-2.0e057c4b63d7f4ce91f0239951987a16.svg",
+    "static/media/productbike-1.svg": "/ebike-test/static/media/productbike-1.6466470ba831cbd783e90a39bad1b8ec.svg",
+    "static/media/productbike-3.svg": "/ebike-test/static/media/productbike-3.dec73fd1639ad5e673195cce68f11e4c.svg",
     "static/media/bg.png": "/ebike-test/static/media/bg.55a5db54e996f982462c.png",
     "static/media/bg2.png": "/ebike-test/static/media/bg2.a567476f920db35c8c33.png",
-    "static/media/bike3.png": "/ebike-test/static/media/bike3.65dffeac53ea7521147b.png",
     "static/media/athlete.png": "/ebike-test/static/media/athlete.9d059f32973ac03ff4fc.png",
     "static/media/other-bikes.png": "/ebike-test/static/media/other-bikes.f7c448597c31efb874fc.png",
     "index.html": "/ebike-test/index.html",
-    "main.63910c6e.css.map": "/ebike-test/static/css/main.63910c6e.css.map",
-    "main.3e014a89.js.map": "/ebike-test/static/js/main.3e014a89.js.map",
+    "main.ebd8b2bd.css.map": "/ebike-test/static/css/main.ebd8b2bd.css.map",
+    "main.0b200983.js.map": "/ebike-test/static/js/main.0b200983.js.map",
     "787.1c1b9cfc.chunk.js.map": "/ebike-test/static/js/787.1c1b9cfc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63910c6e.css",
-    "static/js/main.3e014a89.js"
+    "static/css/main.ebd8b2bd.css",
+    "static/js/main.0b200983.js"
   ]
 }
